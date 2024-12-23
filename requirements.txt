@@ -1,0 +1,11 @@
+numpy==1.23.5
+pandas==1.5.3
+tensorflow==2.13.0  # Use TensorFlow for model training and inference
+opencv-python==4.8.0.74  # For image processing
+Pillow==10.0.0  # For handling image orientation
+albumentations==1.3.1  # For augmentations
+scikit-learn==1.3.0  # For evaluation metrics
+matplotlib==3.7.2  # For visualization
+seaborn==0.12.2  # For advanced plots
+inference-sdk
+tkinter

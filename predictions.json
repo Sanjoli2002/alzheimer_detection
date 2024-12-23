@@ -1,0 +1,64 @@
+{
+  "predictions": [
+    {
+      "x": 413.5,
+      "y": 493.5,
+      "width": 783,
+      "height": 525,
+      "confidence": 0.8734486699104309,
+      "class": "bus",
+      "class_id": 5,
+      "detection_id": "unique-detection-id"
+    },
+    {
+      "x": 146.5,
+      "y": 650.0,
+      "width": 197,
+      "height": 504,
+      "confidence": 0.8656911849975586,
+      "class": "person",
+      "class_id": 0,
+      "detection_id": "unique-detection-id"
+    },
+    {
+      "x": 739.0,
+      "y": 634.5,
+      "width": 140,
+      "height": 485,
+      "confidence": 0.852835476398468,
+      "class": "person",
+      "class_id": 0,
+      "detection_id": "unique-detection-id"
+    },
+    {
+      "x": 282.5,
+      "y": 631.0,
+      "width": 123,
+      "height": 452,
+      "confidence": 0.8252244591712952,
+      "class": "person",
+      "class_id": 0,
+      "detection_id": "unique-detection-id"
+    },
+    {
+      "x": 31.5,
+      "y": 711.5,
+      "width": 63,
+      "height": 323,
+      "confidence": 0.2611124813556671,
+      "class": "person",
+      "class_id": 0,
+      "detection_id": "unique-detection-id"
+    },
+    {
+      "x": 16.0,
+      "y": 289.0,
+      "width": 32,
+      "height": 70,
+      "confidence": 0.25506913661956787,
+      "class": "stop sign",
+      "class_id": 11,
+      "detection_id": "unique-detection-id"
+    }
+  ]
+}
