@@ -21,8 +21,8 @@ def start_webcam(result_label, result_image_label, predictions_text):
     """
     Starts live webcam feed and processes the frames.
     """
-    result_label.config(text="Processing live webcam feed...", fg="blue")
-    process_live_feed(result_image_label, predictions_text)
+    result_label.config(text="Initializing live webcam feed...", fg="blue")
+    process_live_feed(result_image_label, predictions_text, result_label)
 
 
 # Create main window

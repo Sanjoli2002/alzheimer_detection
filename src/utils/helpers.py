@@ -4,16 +4,16 @@ import cv2
 from PIL import Image, ImageTk
 from tkinter import messagebox
 
-
-def update_image_in_ui(image, result_image_label, image_size=(800, 600)):
+def update_image_in_ui(frame, result_image_label, image_size=(800, 600)):
     """
     Update the displayed image in the Tkinter label.
     """
-    img = Image.fromarray(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+    img = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
     img = img.resize(image_size)  # Resize the image to fit in the window
     img_tk = ImageTk.PhotoImage(img)
     result_image_label.config(image=img_tk)
-    result_image_label.image = img_tk  # Keep reference
+    result_image_label.image = img_tk  # Keep reference to avoid garbage collection
+
 
 
 def handle_invalid_file(image_path):
